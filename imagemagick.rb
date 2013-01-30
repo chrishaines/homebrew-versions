@@ -9,7 +9,7 @@ def ghostscript_fonts?
   File.directory? "#{HOMEBREW_PREFIX}/share/ghostscript/fonts"
 end
 
-class Imagemagick67 < Formula
+class Imagemagick < Formula
   homepage 'http://www.imagemagick.org'
 
   # upstream's stable tarballs tend to disappear, so we provide our own mirror
